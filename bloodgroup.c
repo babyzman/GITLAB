@@ -9,14 +9,22 @@ void main()
     scanf("%s", Name);
     do
     {
+<<<<<<< HEAD
       printf("What is your blood groupaa [A, B, AB, or O]? ");
+=======
+      printf("What is your blood group [A, B, AB, or O]? ");
+>>>>>>> 06afc2af8b6c01f16abc29f18609c7c1550d69e9
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 )
+<<<<<<< HEAD
         printf("Blood group %s is incorrect!xx Please try again.\n", G);
+=======
+        printf("Blood group %s is incorrect! Please try again.\n", G);
+>>>>>>> 06afc2af8b6c01f16abc29f18609c7c1550d69e9
     }  while (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
