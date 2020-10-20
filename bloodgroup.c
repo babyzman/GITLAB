@@ -9,14 +9,14 @@ void main()
     scanf("%s", Name);
     do
     {
-      printf("What is your blood groupaa [A, B, AB, or O]? ");
+      printf("What is your blood group[A, B, AB, or O]? ");
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 )
-        printf("Blood group %s is incorrect!xx Please try again.\n", G);
+        printf("Blood group %s is incorrect! Please try again.\n", G);
     }  while (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
@@ -29,7 +29,7 @@ void main()
     else if (strcmp(G, "B") ==0)
     {
       printf("%s, B. Well, you can give blood to: B, AB.\n", Name);
-      printf("  You can receive blood from: B, O.\n");
+      printf("  You can receive bloodaaa from: B, O.\n");
     }
     else if (strcmp(G, "AB") == 0)
     {
@@ -41,7 +41,7 @@ void main()
       printf("%s, O. Nice! You can give blood to all: O, A, B, AB\n", Name);
       printf("  But Sad! You can receive blood only from: O\n");
     }
-    printf("\nContinue (YES for Yes)? ");
+    printf("\nContinue (YESxxx for Yes)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
